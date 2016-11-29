@@ -42,4 +42,8 @@
 
         MsgBox("El resultado de la suma es " + resultado_suma.ToString)
     End Sub
+
+    Private Sub close_Click(sender As Object, e As EventArgs) Handles cerrar.Click
+        Me.Close()
+    End Sub
 End Class
